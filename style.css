@@ -64,6 +64,7 @@ button {
 @keyframes animatefromtop {
   from {
     top: -300px;
+    /* this here could be made to slide in from bottom */
     opacity: 0;
   }
   to {
@@ -71,3 +72,5 @@ button {
     opacity: 1;
   }
 }
+
+/* Media Queries */

@@ -6,11 +6,16 @@
 
 button {
   padding: 1rem;
-  width: 10%;
+  width: 20%;
   margin: 1rem auto;
-  background-color: rgb(139, 123, 123);
+  background-color: rgb(28, 74, 92);
   color: rgb(247, 245, 245);
   display: block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .modal {
@@ -30,7 +35,7 @@ button {
   margin: 4rem auto;
   padding: 0;
   border: 1px solid #888;
-  width: 40%;
+  width: 50%;
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation: animatefromtop 1s;
@@ -74,3 +79,20 @@ button {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 782px) {
+  button {
+    width: 25%;
+  }
+  .modal-content {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 628px) {
+  button {
+    width: 45%;
+  }
+  .modal-content {
+    width: 80%;
+  }
+}
